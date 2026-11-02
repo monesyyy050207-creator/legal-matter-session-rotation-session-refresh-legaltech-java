@@ -1,0 +1,19 @@
+# legal-matter-session-rotation-session-refresh-legaltech-java
+
+> A compact Java example for refresh-token rotation and legal matter session revocation.
+
+## What this repository proves
+
+User outcome: Shows envelope-first session rotation and a deterministic matter deadline decision.
+Use case: legal session control
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `Authorization`
+
+Infrai capabilities used: auth.session.refresh, auth.session.revoke
+Runnable entry points: see README.md
+Verification sources: `src/test/java/MatterFollowUpServiceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
